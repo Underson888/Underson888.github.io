@@ -1,0 +1,61 @@
+name = Bootstrap Instant
+description = A Bootstrap Instant sub-theme.
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation] = 'Navigation'
+regions[header] = 'Top Bar'
+regions[highlighted] = 'Highlighted'
+regions[help] = 'Help'
+regions[content] = 'Content'
+regions[footer_first] = 'Footer primary'
+regions[footer_second] = 'Footer secondary'
+regions[footer_third] = 'Footer third'
+regions[page_top] = 'Page top'
+regions[page_bottom] = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Theme Settings
+;;;;;;;;;;;;;;;;;;;;;
+
+; Header info
+; --------------
+settings[header_image] = 'field_image'
+settings[front_header_line1] = 'HELLO PEOPLE, MY NAME IS'
+settings[header_line1] = 'body'
+settings[front_header_line2] = 'PAUL SILVA'
+settings[front_header_line3] = 'WEB DESIGNER, DEVELOPER & GAME ADDICT'
+settings[header_line3] = 'body'
+
+; Social links
+; --------------
+settings[social_dribbble] = 'https://dribbble.com'
+settings[social_facebook] = 'https://www.facebook.com'
+settings[social_twitter] = 'https://twitter.com'
+settings[social_linkedin] = 'https://www.linkedin.com'
+settings[social_instagram] = 'http://instagram.com'
+settings[social_tumblr] = 'https://www.tumblr.com'
+
+; Node view
+; --------------
+settings[article_node_view_text] = 'body'
+settings[article_node_view_images] = 'field_image'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = assets/css/style.css
+stylesheets[all][] = assets/css/font-awesome.css
+stylesheets[all][] = assets/css/theme.css
+
+; Information added by Drupal.org packaging script on 2015-04-22
+version = "7.x-1.0-alpha4"
+core = "7.x"
+project = "bootstrap_instant"
+datestamp = "1429723982"
+
